@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7742FC18225BECEC00358F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC17225BECEC00358F82 /* AppDelegate.m */; };
+		7742FC1E225BECEC00358F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7742FC1C225BECEC00358F82 /* Main.storyboard */; };
+		7742FC20225BECED00358F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7742FC1F225BECED00358F82 /* Assets.xcassets */; };
+		7742FC23225BECED00358F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7742FC21225BECED00358F82 /* LaunchScreen.storyboard */; };
+		7742FC26225BECED00358F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC25225BECED00358F82 /* main.m */; };
+		7742FC2E225BEDAA00358F82 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC2D225BEDAA00358F82 /* PhotosCollectionViewController.swift */; };
+		7742FC30225BEDBD00358F82 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC2F225BEDBD00358F82 /* DetailViewController.swift */; };
+		7742FC36225C017D00358F82 /* NYCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC35225C017D00358F82 /* NYCNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7742FC13225BECEC00358F82 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7742FC16225BECEC00358F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7742FC17225BECEC00358F82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7742FC1D225BECEC00358F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7742FC1F225BECED00358F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7742FC22225BECED00358F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7742FC24225BECED00358F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7742FC25225BECED00358F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7742FC2C225BEDAA00358F82 /* Astro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Astro-Bridging-Header.h"; sourceTree = "<group>"; };
+		7742FC2D225BEDAA00358F82 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		7742FC2F225BEDBD00358F82 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7742FC34225C017D00358F82 /* NYCNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCNetworking.h; sourceTree = "<group>"; };
+		7742FC35225C017D00358F82 /* NYCNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCNetworking.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7742FC10225BECEC00358F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7742FC0A225BECEC00358F82 = {
+			isa = PBXGroup;
+			children = (
+				7742FC15225BECEC00358F82 /* Astro */,
+				7742FC14225BECEC00358F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7742FC14225BECEC00358F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7742FC13225BECEC00358F82 /* Astro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7742FC15225BECEC00358F82 /* Astro */ = {
+			isa = PBXGroup;
+			children = (
+				7742FC16225BECEC00358F82 /* AppDelegate.h */,
+				7742FC17225BECEC00358F82 /* AppDelegate.m */,
+				7742FC1C225BECEC00358F82 /* Main.storyboard */,
+				7742FC1F225BECED00358F82 /* Assets.xcassets */,
+				7742FC21225BECED00358F82 /* LaunchScreen.storyboard */,
+				7742FC24225BECED00358F82 /* Info.plist */,
+				7742FC25225BECED00358F82 /* main.m */,
+				7742FC31225BEDC600358F82 /* View Controllers */,
+				7742FC2C225BEDAA00358F82 /* Astro-Bridging-Header.h */,
+				7742FC37225C018400358F82 /* Networking */,
+			);
+			path = Astro;
+			sourceTree = "<group>";
+		};
+		7742FC31225BEDC600358F82 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7742FC2D225BEDAA00358F82 /* PhotosCollectionViewController.swift */,
+				7742FC2F225BEDBD00358F82 /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7742FC37225C018400358F82 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7742FC34225C017D00358F82 /* NYCNetworking.h */,
+				7742FC35225C017D00358F82 /* NYCNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7742FC12225BECEC00358F82 /* Astro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7742FC29225BECED00358F82 /* Build configuration list for PBXNativeTarget "Astro" */;
+			buildPhases = (
+				7742FC0F225BECEC00358F82 /* Sources */,
+				7742FC10225BECEC00358F82 /* Frameworks */,
+				7742FC11225BECEC00358F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astro;
+			productName = Astro;
+			productReference = 7742FC13225BECEC00358F82 /* Astro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7742FC0B225BECEC00358F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NYC;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nathanael Youngren";
+				TargetAttributes = {
+					7742FC12225BECEC00358F82 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 7742FC0E225BECEC00358F82 /* Build configuration list for PBXProject "Astro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7742FC0A225BECEC00358F82;
+			productRefGroup = 7742FC14225BECEC00358F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7742FC12225BECEC00358F82 /* Astro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7742FC11225BECEC00358F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7742FC23225BECED00358F82 /* LaunchScreen.storyboard in Resources */,
+				7742FC20225BECED00358F82 /* Assets.xcassets in Resources */,
+				7742FC1E225BECEC00358F82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7742FC0F225BECEC00358F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7742FC36225C017D00358F82 /* NYCNetworking.m in Sources */,
+				7742FC2E225BEDAA00358F82 /* PhotosCollectionViewController.swift in Sources */,
+				7742FC26225BECED00358F82 /* main.m in Sources */,
+				7742FC18225BECEC00358F82 /* AppDelegate.m in Sources */,
+				7742FC30225BEDBD00358F82 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7742FC1C225BECEC00358F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7742FC1D225BECEC00358F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7742FC21225BECED00358F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7742FC22225BECED00358F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7742FC27225BECED00358F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7742FC28225BECED00358F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7742FC2A225BECED00358F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBKK7B5HAP;
+				INFOPLIST_FILE = Astro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nateyoungren.Astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astro/Astro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7742FC2B225BECED00358F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBKK7B5HAP;
+				INFOPLIST_FILE = Astro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nateyoungren.Astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astro/Astro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7742FC0E225BECEC00358F82 /* Build configuration list for PBXProject "Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7742FC27225BECED00358F82 /* Debug */,
+				7742FC28225BECED00358F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7742FC29225BECED00358F82 /* Build configuration list for PBXNativeTarget "Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7742FC2A225BECED00358F82 /* Debug */,
+				7742FC2B225BECED00358F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7742FC0B225BECEC00358F82 /* Project object */;
+}
