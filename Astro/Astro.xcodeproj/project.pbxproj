@@ -15,6 +15,8 @@
 		7742FC2E225BEDAA00358F82 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC2D225BEDAA00358F82 /* PhotosCollectionViewController.swift */; };
 		7742FC30225BEDBD00358F82 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC2F225BEDBD00358F82 /* DetailViewController.swift */; };
 		7742FC36225C017D00358F82 /* NYCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7742FC35225C017D00358F82 /* NYCNetworking.m */; };
+		7777B804225D5846003D312B /* NYCMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777B803225D5846003D312B /* NYCMarsPhoto.m */; };
+		7777B808225D5AA8003D312B /* NYCCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777B807225D5AA8003D312B /* NYCCamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		7742FC2F225BEDBD00358F82 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7742FC34225C017D00358F82 /* NYCNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCNetworking.h; sourceTree = "<group>"; };
 		7742FC35225C017D00358F82 /* NYCNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCNetworking.m; sourceTree = "<group>"; };
+		7777B802225D5846003D312B /* NYCMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCMarsPhoto.h; sourceTree = "<group>"; };
+		7777B803225D5846003D312B /* NYCMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCMarsPhoto.m; sourceTree = "<group>"; };
+		7777B806225D5AA8003D312B /* NYCCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCCamera.h; sourceTree = "<group>"; };
+		7777B807225D5AA8003D312B /* NYCCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCCamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 				7742FC31225BEDC600358F82 /* View Controllers */,
 				7742FC2C225BEDAA00358F82 /* Astro-Bridging-Header.h */,
 				7742FC37225C018400358F82 /* Networking */,
+				7777B805225D584D003D312B /* Model */,
 			);
 			path = Astro;
 			sourceTree = "<group>";
@@ -93,6 +100,17 @@
 				7742FC35225C017D00358F82 /* NYCNetworking.m */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		7777B805225D584D003D312B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7777B802225D5846003D312B /* NYCMarsPhoto.h */,
+				7777B803225D5846003D312B /* NYCMarsPhoto.m */,
+				7777B806225D5AA8003D312B /* NYCCamera.h */,
+				7777B807225D5AA8003D312B /* NYCCamera.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +187,8 @@
 			files = (
 				7742FC36225C017D00358F82 /* NYCNetworking.m in Sources */,
 				7742FC2E225BEDAA00358F82 /* PhotosCollectionViewController.swift in Sources */,
+				7777B804225D5846003D312B /* NYCMarsPhoto.m in Sources */,
+				7777B808225D5AA8003D312B /* NYCCamera.m in Sources */,
 				7742FC26225BECED00358F82 /* main.m in Sources */,
 				7742FC18225BECEC00358F82 /* AppDelegate.m in Sources */,
 				7742FC30225BEDBD00358F82 /* DetailViewController.swift in Sources */,

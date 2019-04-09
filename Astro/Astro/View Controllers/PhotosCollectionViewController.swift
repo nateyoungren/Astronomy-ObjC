@@ -12,6 +12,10 @@ class PhotosCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NYCNetworking().fetchMarsRover(withName: "curiosity", sol: 100) { (dictionary, error) in
+            
+        }
     }
 
     // MARK: - Navigation
@@ -34,33 +38,33 @@ class PhotosCollectionViewController: UICollectionViewController {
         return cell
     }
     
-    var photos: [UIImage] {
-        var array: [UIImage] = []
-        
-        if let sol = sol {
-            NYCNetworking().fetchMarsRover(withName: "curiosity", sol: sol) { (dictionary, error) in
-                if let error = error {
-                    print(error)
-                    return
-                }
-                
-                
-            }
-            
-        } else {
-            NYCNetworking().fetchMarsRover(withName: "curiosity", sol: 1) { (dictionary, error) in
-                if let error = error {
-                    print(error)
-                    return
-                }
-            }
-        }
-    }
-    
-    var sol: Int32? {
-        didSet {
-            self.collectionView.reloadData()
-        }
-    }
+//    var photos: [UIImage]? {
+//        var array: [UIImage] = []
+//
+//        if let sol = sol {
+//            NYCNetworking().fetchMarsRover(withName: "curiosity", sol: sol) { (dictionary, error) in
+//                if let error = error {
+//                    print(error)
+//                    return
+//                }
+//
+//
+//            }
+//
+//        } else {
+//            NYCNetworking().fetchMarsRover(withName: "curiosity", sol: 1) { (dictionary, error) in
+//                if let error = error {
+//                    print(error)
+//                    return
+//                }
+//            }
+//        }
+//    }
+//
+//    var sol: Int32? {
+//        didSet {
+//            self.collectionView.reloadData()
+//        }
+//    }
 
 }
